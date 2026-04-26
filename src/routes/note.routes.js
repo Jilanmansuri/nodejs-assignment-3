@@ -6,6 +6,6 @@ const {
 } = require("../controllers/note.controller");
 
 // CRUD single-item routes LAST
-// router.post("/", createNote);
+router.post("/", createNote);
 
 module.exports = router;
